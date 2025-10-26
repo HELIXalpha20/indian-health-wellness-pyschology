@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>INDIAN HEALTH WELLNESS AND PSYCHOLOGY</title>
+  <meta name="description" content="Prakriti (Vata/Pitta/Kapha) assessment and natural wellbeing suggestions" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="badge">IHWP</div>
+        <div>
+          <h1>INDIAN HEALTH WELLNESS AND PSYCHOLOGY</h1>
+          <p class="small">Prakriti (Vata · Pitta · Kapha) self-assessment & natural guidance</p>
+        </div>
+      </div>
+    </header>
+
+    <p class="lead card">
+      This assessment follows the structure from the provided document: 
+      <strong>Physical Traits, Mental & Emotional Traits, Daily Habits & Preferences, Environmental Reactions</strong>. 
+      Answer honestly Please..........
+    </p>
+
+    <form id="prakritiForm" class="card" autocomplete="off">
+      <!-- === SECTION 1: Physical Traits === -->
+      <h2 class="section-title">1. Physical Traits</h2>
+
+      <div class="group">
+        <label class="question">Skin type</label>
+        <div class="options" data-name="skin">
+          <label class="option"><input type="radio" name="skin" value="vata"> Dry</label>
+          <label class="option"><input type="radio" name="skin" value="pitta"> Oily</label>
+          <label class="option"><input type="radio" name="skin" value="kapha"> Balanced</label>
+        </div>
+      </div>
+
+      <div class="group">
+        <label class="question">Body build</label>
+        <div class="options" data-name="build">
+          <label class="option"><input type="radio" name="build" value="vata"> Thin / slender</label>
+          <label class="option"><input type="radio" name="build" value="pitta"> Muscular / medium</label>
+          <label class="option"><input type="radio" name="build" value="kapha"> Heavy / sturdy</label>
+        </div>
+      </div>
+
+      <div class="group">
+        <label class="question">Hair type</label>
+        <div class="options" data-name="hair">
+          <label class="option"><input type="radio" name="hair" value="vata"> Dry / brittle / thin</label>
+          <label class="option"><input type="radio" name="hair" value="pitta"> Oily / fine</label>
+          <label class="option"><input type="radio" name="hair" value="kapha"> Thick / lustrous</label>
+        </div>
+      </div>
+
+      <div class="group">
+        <label class="question">Eyes (size/brightness)</label>
+        <div class="options" data-name="eyes">
+          <label class="option"><input type="radio" name="eyes" value="vata"> Small / delicate</label>
+          <label class="option"><input type="radio" name="eyes" value="pitta"> Bright / penetrating</label>
+          <label class="option"><input type="radio" name="eyes" value="kapha"> Large / calm</label>
+        </div>
+      </div>
+
+      <!-- === SECTION 2: Mental & Emotional Traits === -->
+      <h2 class="section-title">2. Mental & Emotional Traits</h2>
+
+      <div class="group">
+        <label class="question">General mindset</label>
+        <div class="options" data-name="mindset">
+          <label class="option"><input type="radio" name="mindset" value="kapha"> Calm / steady</label>
+          <label class="option"><input type="radio" name="mindset" value="pitta"> Intense / focused</label>
+          <label class="option"><input type="radio" name="mindset" value="vata"> Restless / changeable</label>
+        </div>
+      </div>
+
+      <div class="group">
+        <label class="question">Memory</label>
+        <div class="options" data-name="memory">
+          <label class="option"><input type="radio" name="memory" value="pitta"> Sharp memory</label>
+          <label class="option"><input type="radio" name="memory" value="vata"> Forgetful / scattered</label>
+          <label class="option"><input type="radio" name="memory" value="kapha"> Slow but steady</label>
+        </div>
+      </div>
+
+      <div class="group">
+        <label class="question">Emotional tendencies</label>
+        <div class="options" data-name="emotions">
+          <label class="option"><input type="radio" name="emotions" value="pitta"> Anger / irritation</label>
+          <label class="option"><input type="radio" name="emotions" value="vata"> Anxiety / worry</label>
+          <label class="option"><input type="radio" name="emotions" value="kapha"> Calm / content</label>
+        </div>
+      </div>
+
+      <!-- === SECTION 3: Daily Habits & Preferences === -->
+      <h2 class="section-title">3. Daily Habits & Preferences</h2>
+
+      <div class="group">
+        <label class="question">Diet preferences</label>
+        <div class="options" data-name="diet">
+          <label class="option"><input type="radio" name="diet" value="pitta"> Hot / spicy foods</label>
+          <label class="option"><input type="radio" name="diet" value="vata"> Cold / light foods</label>
+          <label class="option"><input type="radio" name="diet" value="kapha"> Sweet / heavy foods</label>
+        </div>
+      </div>
+
+      <div class="group">
+        <label class="question">Sleep pattern</label>
+        <div class="options" data-name="sleep">
+          <label class="option"><input type="radio" name="sleep" value="kapha"> Deep / long sleep</label>
+          <label class="option"><input type="radio" name="sleep" value="pitta"> Moderate sleep</label>
+          <label class="option"><input type="radio" name="sleep" value="vata"> Light / disturbed</label>
+        </div>
+      </div>
+
+      <div class="group">
+        <label class="question">Energy levels</label>
+        <div class="options" data-name="energy">
+          <label class="option"><input type="radio" name="energy" value="pitta"> Energetic / driven</label>
+          <label class="option"><input type="radio" name="energy" value="kapha"> Steady / slow</label>
+          <label class="option"><input type="radio" name="energy" value="vata"> Variable / fatigue</label>
+        </div>
+      </div>
+
+      <!-- === SECTION 4: Environmental Reactions === -->
+      <h2 class="section-title">4. Environmental Reactions</h2>
+
+      <div class="group">
+        <label class="question">Climate preference</label>
+        <div class="options" data-name="climate">
+          <label class="option"><input type="radio" name="climate" value="vata"> Warm</label>
+          <label class="option"><input type="radio" name="climate" value="pitta"> Cool</label>
+          <label class="option"><input type="radio" name="climate" value="kapha"> Moderate</label>
+        </div>
+      </div>
+
+      <div class="group">
+        <label class="question">Stress response</label>
+        <div class="options" data-name="stress">
+          <label class="option"><input type="radio" name="stress" value="vata"> Anxious / scattered</label>
+          <label class="option"><input type="radio" name="stress" value="pitta"> Irritable / critical</label>
+          <label class="option"><input type="radio" name="stress" value="kapha"> Withdrawn / heavy</label>
+        </div>
+      </div>
+
+      <!-- === Buttons & Results === -->
+      <div class="controls">
+        <button type="button" class="primary" id="submitBtn">Find My Prakriti</button>
+        <button type="button" class="ghost" id="resetBtn">Reset</button>
+      </div>
+
+      <div id="results" class="results">
+        <h3 class="section-title">Your Prakriti Results</h3>
+        <div id="scoreSummary"></div>
+        <div id="mainResult"></div>
+        <button class="ghost" id="printBtn">Print / Save Results</button>
+      </div>
+    </form>
+
+    <footer class="small">
+      Built by Harsh Omle - 202203103510278.
+      <br>© 2025 Indian Health Wellness and Psychology
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
